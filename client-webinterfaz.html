@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Calculator</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+</head>
+
+<body>
+	<div class="calculator" <form action="#" name="calculator" id="calculator">
+		<p id="idScreen">0</p>
+		<p>
+			<input type="button" value="AC" onclick="processClickOn('r')" />
+			<input type="button" value="&#177" onclick="processClickOn('i')" />
+			<input type="button" value="&#9668" onclick="processClickOn('<')" />
+			<input type="button" value="+" onclick="processClickOn('+')" />
+		</p>		
+		<p>
+			<input type="button" value="7" onclick="processClickOn('7')" />
+			<input type="button" value="8" onclick="processClickOn('8')" />
+			<input type="button" value="9" onclick="processClickOn('9')" />
+			<input type="button" value="&#45" onclick="processClickOn('&#45')" />
+		</p>
+		<p>
+			<input type="button" value="4" onclick="processClickOn('4')" />
+			<input type="button" value="5" onclick="processClickOn('5')" />
+			<input type="button" value="6" onclick="processClickOn('6')" />
+			<input type="button" value="&#42" onclick="processClickOn('&#42')" />
+		</p>
+		<p>
+			<input type="button" value="1" onclick="processClickOn('1')" />
+			<input type="button" value="2" onclick="processClickOn('2')" />
+			<input type="button" value="3" onclick="processClickOn('3')" />
+			<input type="button" value="/" onclick="processClickOn('/')" />
+		</p>
+		<p>
+			<input type="button" value="0" onclick="processClickOn('0')" />
+			<input type="button" value="," onclick="processClickOn(',')" />
+			<input type="button" value="=" onclick="processClickOn('=')" />
+		</p>
+		<p id="foot1">Clicks: <span id="idClicks"></span></p>
+		</form>
+	</div>
+	<footer>
+		&#169 Developed by Rafael Delgado Casanova, november 2016.
+	</footer>
+	<script type="text/javascript" src="jsOutput/App/ICalculator.js"></script>
+	<script type="text/javascript" src="jsOutput/App/classCalculator.js"></script>
+	<script type="text/javascript" src="jsOutput/App/classCientificCalc.js"></script>
+	<script type="text/javascript" src="jsOutput/App/businessLogic.js"></script>
+</body>
+
+</html>

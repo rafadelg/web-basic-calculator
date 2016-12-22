@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "./jsOutput",
+        "sourceMap": true,
+        "removeComments": true,
+        "noImplicitAny": false,  // con true: forzaría a tipar todas las declaraciones
+        "strictNullChecks": false,  
+        "allowJs": false
+    }
+    //"include": [ "./jsEntrada/**/*" ] // usado en proyectos de migración
+}
+
